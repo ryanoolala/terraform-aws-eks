@@ -44,7 +44,7 @@ variable "permissions_boundary" {
   default     = null
 }
 
-variable "subnets" {
+variable "fargate_subnets" {
   description = "A list of subnets for the EKS Fargate profiles."
   type        = list(string)
   default     = []
